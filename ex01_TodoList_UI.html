@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Header.css" />
+    <link rel="stylesheet" href="./css/Editor.css" />
+    <link rel="stylesheet" href="./css/List.css" />
+    <link rel="stylesheet" href="./css/TodoItem.css" />
+    <style>
+      body {
+        margin: 8px;
+      }
+      .App {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 500px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="App">
+      <div class="Header">
+        <h3>오늘의 paln😊</h3>
+        <h1 id="time">
+          <!-- 현재 날짜를 년 월 일 요일로 출력한다 -->
+        </h1>
+      </div>
+
+      <form action="">
+        <div class="Editor">
+          <input type="text" placeholder="새로운 todo" />
+          <button id="add">추가</button>
+        </div>
+      </form>
+
+      <div class="List">
+        <h4>Todo List 🌱</h4>
+        <input type="text" placeholder="검색어를 입력해주세요." />
+
+        <div class="todos_wrapper">
+          <!-- 리스트 -->
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/TodoList.js"></script>
+  </body>
+</html>
