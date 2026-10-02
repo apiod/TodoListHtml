@@ -1,6 +1,9 @@
 # TODO List
 
-HTML, CSS, JavaScript를 활용하여 TODO List의 기본적인 CRUD 기능을 구현한 프로젝트입니다.
+HTML, CSS, JavaScript를 활용하여  
+TODO List의 기본적인 CRUD 기능을 구현한 프로젝트입니다.
+
+![TODO List 실행 화면](./img/index.png)
 
 ## 📌 프로젝트 소개
 
