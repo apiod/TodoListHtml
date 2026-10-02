@@ -37,7 +37,6 @@ JavaScript를 이용한 DOM 조작과 이벤트 처리를 중심으로 구현하
 ## 🔗 링크
 
 - [프로젝트 페이지](https://apiod.github.io/TodoListHtml/index.html)
-- [GitHub](https://github.com/apiod/TodoListHtml)
 
 ## 📝 느낀 점
 
